@@ -78,6 +78,20 @@ Internal operations intelligence tool for multibrand omnichannel retail store sp
 - No hypothetical future features
 - Each feature fully functional before moving to next
 
+### Git Workflow
+- **Purpose**: Version control for tracking changes over time
+- **Branch strategy**: Work directly on `main` (no feature branches)
+- **Commit frequency**:
+  - After completing a feature or fixing a bug
+  - End of work session (snapshot current state)
+  - When it makes logical sense (natural breakpoints)
+- **Commit style**:
+  - Clear messages describing what changed
+  - Co-authored with Claude
+- **Push strategy**: Push to GitHub after each commit
+- **No PRs**: Direct push to main (solo project)
+- **Benefits**: Version history, rollback safety, documentation trail, backup
+
 ## Project Status
 
 **Current Phase**: Full historical data loaded, ready for daily automation
